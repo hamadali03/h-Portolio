@@ -11,7 +11,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Muhammad Hamad",
+  title: "MERN Developer",
   description: "MY portfolio as a MERN Stack Developer",
 };
 
