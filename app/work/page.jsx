@@ -16,7 +16,7 @@ const projects=[
      category:'frontend',
      title:'project 1',
     //  desctription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos sint, voluptate perferendis quis ',
-     stack:[{name:'Html 5'},{name:"Css 3"},{name:'javascript'}],
+     stack:[{name:'Html 5'},{name:'Css 3'},{name:'javascript'}],
      image:"/assets/work/thumb1.png",
      live:'',
      github:''
@@ -25,21 +25,53 @@ const projects=[
     num:'02',
     category:'fullstack',
     title:'project 2',
+   //  desctription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos sint, voluptate perferendis quis ',
+    stack:[{name:'Node & Express JS'},{name:'React.js'}],
+    image:"/assets/work/thumb7.PNG",
+    live:'',
+    github:''
+ },
+  {
+    num:'03',
+    category:'frontend',
+    title:'project 3',
     // desctription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos sint, voluptate perferendis quis ',
-    stack:[{name:'Next.js'},{name:"Tailwind.css"},{name:'Node.js'}],
+    stack:[{name:'Html'},{name:'Tailwind.css'}],
     image:"/assets/work/thumb2.png",
     live:'',
     github:''
  },
  {
-  num:'03',
+  num:'04',
   category:'frontend',
-  title:'project 2',
+  title:'project 4',
   // desctription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos sint, voluptate perferendis quis ',
-  stack:[{name:'Next.js'},{name:"Tailwind.Css"},],
-  image:"/assets/work/thumb3.png",
-  live:'',
+  stack:[{name:'HTML 5'},{name:'CSS 3'},{name:'javascript'}],
+  image:"/assets/work/thumb5.PNG",
+  live:'https://dog-security-guards.web.app/index.html',
   github:''
+},
+{
+  num:'05',
+  category:'fullstack',
+  title:'project 5',
+  // desctription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos sint, voluptate perferendis quis ',
+  stack:[{name:'Node.js'},{name:'React.js'},{name:'Tailwind.Css'}],
+  
+  image:"/assets/work/thumb4.PNG",
+  live:'https://full-auth-ezvv.vercel.app/',
+  github:'https://github.com/hamadali03/full-auth'
+},
+{
+  num:'06',
+  category:'fullstack',
+  title:'project 6',
+  // desctription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos sint, voluptate perferendis quis ',
+  stack:[{name:'Next.js'},{name:'Tailwind.Css'}],
+  
+  image:"/assets/work/thumb6.PNG",
+ live:'',
+  github:'https://github.com/hamadali03/bloging'
 }
 ]
   
@@ -74,7 +106,7 @@ const Work = () => {
         </ul>
         <div className='border border-white/70'></div>
         <div className='flex items-center gap-4'>
-          <Link href={project.live}>
+          <Link  href={project.live}>
          
             <TooltipProvider delayDuration={100}>
             <Tooltip>
@@ -114,7 +146,7 @@ const Work = () => {
           {projects.map((item,index)=>{
             return(
               <SwiperSlide key={index}>
-                 <div className='h-[430px] flex items-center justify-center group relative bg-pink-50/20'>
+                 <div className='h-[430px] flex items-center justify-center group relative '>
                   <div className='h-full w-full top-0 bottom-0 absolute bg-black/10 z-10'></div>
                   <div className='h-full w-full relative '>
                     <Image src={item.image} alt='' fill className=' object-contain'/>
