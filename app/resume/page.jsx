@@ -12,7 +12,7 @@ const about={
     {fieldName:"Experience",fieldValue:"1+ Years"},
     // {fieldName:"Skype",fieldValue:"Luke.01"},
     {fieldName:"Nationality",fieldValue:"Pakistan"},
-    {fieldName:"Email",fieldValue:"mh3815476@gmail.com"},
+    {fieldName:"Email",fieldValue:"hammad1904054@gmail.com"},
     // {fieldName:"Freelance",fieldValue:"Available"},
     {fieldName:"Language",fieldValue:"English, Urdu"},
   ]
