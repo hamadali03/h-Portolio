@@ -147,7 +147,7 @@ const Work = () => {
             return(
               <SwiperSlide key={index}>
                  <div className='h-[430px] flex items-center justify-center group relative '>
-                  <div className='h-full w-full top-0 bottom-0 absolute bg-black/10 z-10'></div>
+                  {/* <div className='h-full w-full top-0 bottom-0 absolute bg-black/10 z-10'></div> */}
                   <div className='h-full w-full relative '>
                     <Image src={item.image} alt='' fill className=' object-contain'/>
                   </div>

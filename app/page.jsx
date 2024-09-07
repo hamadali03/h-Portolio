@@ -27,9 +27,7 @@ const Home = () => {
               Hello I'm <br /><span className=' text-accent-default'>Hamad</span>
             </h1>
             <p className='max-w-[500px] text-white/80 mb-9 text-base' >
-            I understand front-end and back-end technologies, including React.js, Next.JS,and etc. Understanding of responsive design principles and cross-browser compatibility. I am eager to apply my
-knowledge and skills to real-world projects and contribute to a dynamic
-development team.
+            A developer, creative coder and software engineer who specializes in full stack web development. I have a proven track record of designing and implementing innovative web solutions. My expertise is crafting modern, cutting-edge websites that help businesses enhance their online presence. I am eager to apply my knowledge and skills to real-world projects and contribute to a dynamic development team.
 
             </p>
             {/* btn and social */} 
