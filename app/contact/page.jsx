@@ -11,7 +11,7 @@ const Info=[
   {
     icon:<FaPhoneAlt/>,
     title:'Phone',
-    description:'(+92) 335 404 185'
+    description:'(+92) 335 404 1185'
   },
   {
     icon:<FaEnvelope/>,
