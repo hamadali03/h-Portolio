@@ -45,7 +45,7 @@ const Mobilenav = () => {
                 {/* logo */}
                 <div className='mt-24 mb-28 text-center text-2xl'>
                     <Link href="/" onClick={handleLinkClick}><h1>
-                        Luke<span className='text-accent-default'>.</span>
+                        Hamad<span className='text-accent-default'>.</span>
                     </h1></Link>
                 </div>
                 {/* nav */}

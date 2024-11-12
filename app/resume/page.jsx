@@ -23,8 +23,8 @@ const experience={
   title:"My Experience",
   // description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias",
   items:[
-    {company:"Tech slution",position:"Full Stack Developer",duration:"2023-present"},
-    {company:"Freelancing",position:"Front-End Developer",duration:"2023"},
+    {company:"Tech slution",position:"Full Stack Developer",duration:"2024-present"},
+    {company:"Freelancing",position:"Front-End Developer",duration:"2024"},
     // {company:"E-commerec Startup",position:"Freelance Web Developer",duration:"2020-2021"},
     // {company:"Tech Academy",position:"Teaching Assistant",duration:"2019-2020"},
     // {company:"Digital Agency",position:"UI/UX Designer",duration:"2018-2019"},
@@ -37,10 +37,10 @@ const education={
   title:"My Education",
   // description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias",
   items:[
-    {institution:"City College",degree:"ICS",duration:"2018-2020"},
+    {institution:"City College",degree:"ICS",duration:"2017-2019"},
     {institution:"Virtual University",degree:"BS-IT",duration:"2020-2024"},
     // {institution:"Online Course",degree:"Programming Course",duration:"2020-2021"},
-    {institution:"Tevta institution",degree:"Certified Web Developer",duration:"2021"},
+    {institution:"Tevta institution",degree:"Certified Web Developer",duration:"2023"},
     // {institution:"Design School",degree:"Diploma in Graphic Design",duration:"2016-2018"},
     // {institution:"Community College",degree:"Associate Degree in computer science",duration:"2014-2016"},
 

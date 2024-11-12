@@ -22,7 +22,7 @@ const Home = () => {
         <div className='flex flex-col xl:flex-row justify-between items-center'>
           {/* text */}
           <div className='text-center xl:text-left order-2 xl:order-none'>
-            <span className='text-xl'>Software Developer</span>
+            <span className='text-xl'>MERN STACK DEVELOPER</span>
             <h1 className='h1 mb-6 mt-2 gap-2'>
               Hello I'm <br /><span className=' text-accent-default'>Hamad</span>
             </h1>
