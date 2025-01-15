@@ -7,13 +7,13 @@ const about={
   title:"About me",
   // description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias",
   info:[
-    {fieldName:"Name",fieldValue:"Hamad"},
+    {fieldName:"Name",fieldValue:"Muhammad Hamad"},
     {fieldName:"Phone",fieldValue:"(+92) 335 404 1185"},
-    {fieldName:"Experience",fieldValue:"1+ Years"},
+    {fieldName:"Experience",fieldValue:"1.2 Years"},
     // {fieldName:"Skype",fieldValue:"Luke.01"},
     {fieldName:"Nationality",fieldValue:"Pakistan"},
     {fieldName:"Email",fieldValue:"hammad1904054@gmail.com"},
-    // {fieldName:"Freelance",fieldValue:"Available"},
+    {fieldName:"Freelance",fieldValue:"Available"},
     {fieldName:"Language",fieldValue:"English, Urdu"},
   ]
 }
@@ -23,8 +23,8 @@ const experience={
   title:"My Experience",
   // description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias",
   items:[
-    {company:"Tech slution",position:"Full Stack Developer",duration:"2024-present"},
-    {company:"Freelancing",position:"Front-End Developer",duration:"2024"},
+    {company:"Freelancing",position:"MERN Stack Developer",duration:"3 Months"},
+    // {company:"Freelancing",position:"Front-End Developer",duration:"2024"},
     // {company:"E-commerec Startup",position:"Freelance Web Developer",duration:"2020-2021"},
     // {company:"Tech Academy",position:"Teaching Assistant",duration:"2019-2020"},
     // {company:"Digital Agency",position:"UI/UX Designer",duration:"2018-2019"},
@@ -32,13 +32,13 @@ const experience={
   ]
 }
 
-const education={
+const education={   
   icon:"/assets/resume/cap.svg",
   title:"My Education",
   // description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias",
   items:[
     {institution:"City College",degree:"ICS",duration:"2017-2019"},
-    {institution:"Virtual University",degree:"BS-IT",duration:"2020-2024"},
+    {institution:"Virtual University",degree:"BS Information Technology",duration:"2020-2024"},
     // {institution:"Online Course",degree:"Programming Course",duration:"2020-2021"},
     {institution:"Tevta institution",degree:"Certified Web Developer",duration:"2023"},
     // {institution:"Design School",degree:"Diploma in Graphic Design",duration:"2016-2018"},

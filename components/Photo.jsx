@@ -7,7 +7,7 @@ const Photo = () => {
     <div className='w-full h-full relative'>
       <motion.div initial={{opacity:0}} animate={{opacity:1,transition:{delay:2,duration:0.4,ease:"easeIn"}}}>
         <motion.div initial={{opacity:0}} animate={{opacity:1,transition:{delay:2.4,duration:0.4,ease:"easeInOut"}}} className='w-[270px] h-[270px] xl:w-[370px] xl:h-[370px] mix-blend-lighten absolute'>
-            <Image src="/assets/photo1.jpeg" priority quality={100} fill alt='' className=' object-contain'/>
+            <Image src="/assets/photo1.png" priority quality={100} fill alt='' className=' object-contain'/>
         </motion.div>
 
         <motion.svg className="w-[300px] h-[300px] xl:w-[400px] xl:h-[400px] " fill="transparent" viewBox="0 0 506 506" xmlns="http://www.w3.org/2000/svg">

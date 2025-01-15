@@ -12,7 +12,7 @@ const Home = () => {
 
     const link = document.createElement('a');
     link.href = '/assets/skills/HamadAliResume (1).pdf'; // Replace with your actual CV file path
-    link.download = 'my_cv.pdf'; // Set the desired download filename
+    link.download = 'Muhammad Hamad'; // Set the desired download filename
     link.click();
   };
 
