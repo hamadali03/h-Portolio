@@ -27,7 +27,14 @@ const Home = () => {
               Hello I'm <br /><span className=' text-accent-default'>Hamad</span>
             </h1>
             <p className='max-w-[500px] text-white/80 mb-9 text-base' >
-            A developer, creative coder and software engineer who specializes in full stack web development. I have a proven track record of designing and implementing innovative web solutions. My expertise is crafting modern, cutting-edge websites that help businesses enhance their online presence. I am eager to apply my knowledge and skills to real-world projects and contribute to a dynamic development team.
+          I am a full-stack software Engineer with over a year of hands-on experience in building
+scalable and high-performance web applications. My core stack includes Frontend
+technologies like React.js, Next.js, and Tailwind CSS, as well as Backend technologies
+such as Node.js and Express.js. I also work extensively with databases like MongoDB and
+MySQL. With a strong focus on clean architecture, API design, and DevOps (GitHub
+Actions, Vercel), I ensure quality and speed in every delivery. I am recognized for my
+problem-solving skills, effective communication, and collaborative teamwork.
+
 
             </p>
             {/* btn and social */} 
@@ -41,10 +48,15 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* photo */}
-          <div className='order-1 xl:order-none mb-8 xl:mb-0'>
-            <Photo />
-          </div>
+         {/* photo */}
+<div className='order-1 xl:order-none ml-9 mb-8 xl:mb-0'>
+  <img 
+    src="/assets/photo1.png" 
+    alt="Hamad" 
+    className="w-[300px] h-[300px] object-contain rounded-2xl shadow-lg" 
+  />
+</div>
+
         </div>
       </div>
       <States />

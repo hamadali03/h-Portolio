@@ -11,7 +11,7 @@ const Info=[
   {
     icon:<FaPhoneAlt/>,
     title:'Phone',
-    description:'(+92) 335 404 1185'
+    description:'+92-330-0007100'
   },
   {
     icon:<FaEnvelope/>,
@@ -21,7 +21,7 @@ const Info=[
   {
     icon:<FaMapMarkerAlt/>,
     title:'Address',
-    description:'Lahore'
+    description:'Lahore, Pakistan'
   },
 ]
 import { motion } from 'framer-motion'

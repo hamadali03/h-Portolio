@@ -7,14 +7,14 @@ const about={
   title:"About me",
   // description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias",
   info:[
-    {fieldName:"Name",fieldValue:"Muhammad Hamad"},
-    {fieldName:"Phone",fieldValue:"(+92) 335 404 1185"},
-    {fieldName:"Experience",fieldValue:"1.2 Years"},
+    // {fieldName:"Name",fieldValue:"Muhammad Hamad"},
+    {fieldName:"Phone",fieldValue:"+92-330-0007100"},
+    {fieldName:"Experience",fieldValue:"1 Year"},
     // {fieldName:"Skype",fieldValue:"Luke.01"},
-    {fieldName:"Nationality",fieldValue:"Pakistan"},
+    {fieldName:"From",fieldValue:"Lahore, Pakistan"},
     {fieldName:"Email",fieldValue:"hammad1904054@gmail.com"},
-    {fieldName:"Freelance",fieldValue:"Available"},
-    {fieldName:"Language",fieldValue:"English, Urdu"},
+    // {fieldName:"Freelance",fieldValue:"Available"},
+    {fieldName:"Language",fieldValue:"English, Urdu, Punjabi"},
   ]
 }
 
@@ -23,7 +23,7 @@ const experience={
   title:"My Experience",
   // description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias",
   items:[
-    {company:"Freelancing",position:"MERN Stack Developer",duration:"3 Months"},
+    {company:"Freelance Project (Upwork)",position:"Gog Security Guards (International)",duration:"6 Months"},
     // {company:"Freelancing",position:"Front-End Developer",duration:"2024"},
     // {company:"E-commerec Startup",position:"Freelance Web Developer",duration:"2020-2021"},
     // {company:"Tech Academy",position:"Teaching Assistant",duration:"2019-2020"},
@@ -38,9 +38,9 @@ const education={
   // description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias",
   items:[
     {institution:"City College",degree:"ICS",duration:"2017-2019"},
-    {institution:"Virtual University",degree:"BS Information Technology",duration:"2020-2024"},
+    {institution:"Virtual University",degree:"BS Computer Science",duration:"2022-2026"},
     // {institution:"Online Course",degree:"Programming Course",duration:"2020-2021"},
-    {institution:"Tevta institution",degree:"Certified Web Developer",duration:"2023"},
+    {institution:"Tevta institution",degree:"Certified Web Developer",duration:"2020-2021"},
     // {institution:"Design School",degree:"Diploma in Graphic Design",duration:"2016-2018"},
     // {institution:"Community College",degree:"Associate Degree in computer science",duration:"2014-2016"},
 
